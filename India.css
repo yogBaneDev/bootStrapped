@@ -1,0 +1,627 @@
+/*body{
+	height: 12000px;
+}*/
+
+a{
+	text-decoration: none;
+}
+/*navbar starts*/
+.logo_box img{
+	height: 50px;
+	/*position: relative;*/
+	
+}
+.logo_box a {
+	background: white; !important;
+	/*padding-left: 100px !important;*/
+}
+
+
+.navbar .nav-item a{
+	font-size: 20px;
+	/*position: relative;*/
+}
+
+
+.logo_box{
+	/*position: relative !important;*/
+	/*padding-left:100px ;*/
+	background: white;
+}
+.nav_container{
+	background: #333940;
+}
+.navbar .nav-item a{
+	color: white !important;
+	transition: color 0.4s;
+}
+.navbar .nav-item .active{
+	color:#3283EA !important;
+}
+
+.navbar .nav-item a:hover{
+	color:#3283EA !important;
+}
+
+.offcanvas{
+	background: #333940;
+}
+
+.bar_tog{
+	color:#3283EA !important;
+}
+.navbar-light .navbar-toggler{
+	border-color: transparent !important;
+}
+@media screen and (max-width: 800px){
+/*navbar starts*/
+.logo_box{
+	padding-left: 0px !important;
+}
+.navbar-brand{
+	margin: 0px !important;
+	padding: 10px !important;
+}
+.navbar-brand img{
+	margin: 0px !important;
+}
+}
+/*navbar ends*/
+
+/*project headline section starts*/
+.project_head{
+	margin-top: 98px;
+	background:linear-gradient(0deg, rgba(13,28,39,0.98) 6%, rgba(13,28,39,0.1) 100%), url(Images/India/page-title-6.jpg);
+	width: 100%;
+ 	height: 300px;
+ 	background-size: cover;
+ 	color: white;
+ 	display: flex;
+ 	flex-direction: column;
+ 	align-items: center;
+ 	justify-content: center;
+ 	padding-top: 80px;
+}
+.project_headtxt{
+	margin-bottom: 100px;
+}
+
+.project_head ul li{
+	list-style-type: none;
+}
+.project_head ul{
+	align-self: flex-start;
+}
+.project_head li:nth-child(2)::before{
+	content: ">";
+	margin-left: 10px;
+	margin-right: 10px;
+	color: #B8BFC5;
+}
+.project_head li a{
+	color: #B8BFC5;
+	transition: all 0.4s;
+}
+.project_head li a:hover{
+	color:#3283EA;
+}
+
+@media screen and (max-width: 600px){
+	.project_headtxt{
+		margin-bottom: 20px;
+	}
+	.project_head{
+		padding-top: 50px;
+	}
+	.project_head ul{
+		align-self: center;
+		padding-left: 0px;
+	}
+}
+/*project headline section ends*/
+
+/*col-4 starts*/
+
+/*country list starts*/
+.country_name{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px;
+	background: white;
+	transition: all 0.4s;
+	cursor: pointer;
+}
+.country_list{
+	padding: 20px;
+	background: #F7F5F5;
+	border: 3px solid#3283EA;
+}
+.country_name h5{
+	margin-bottom: 0px;
+}
+.country_name h5 a{
+	color: black;
+	transition: all 0.4s;
+}
+.country_name a i{
+	color: #888686;
+	padding: 10px;
+	background: #F7F5F5 ;
+}
+.country_name:hover{
+	background:#3283EA;
+}
+.country_name:hover h5 a{
+	color: white;
+}
+/*country list ends*/
+
+/*pdf download sec start*/
+.pdf_download{
+	padding: 20px;
+	background:#F7F5F5 ;
+	cursor: pointer;
+}
+.pdf_download .card{
+	box-shadow: 0px 0px 30px 0px rgb(0 0 0 / 10%);
+}
+/*pdf download sec end*/
+
+/*study abroad sec statrs*/
+.study_banner{
+	background:linear-gradient(rgba(20, 43, 60,0.8),rgba(20, 43, 60,0.8)),url(Images/India/sidebar-1.jpg);
+	background-size: cover;
+	padding: 30px;
+	color: white;
+	max-width: 450px;
+	position: relative;
+	min-height: 450px;
+}
+.study_img{
+	position: absolute;
+	right: 0px;
+    bottom: 0px;
+    z-index: 1;
+}
+.banner_txt{
+	position: relative;
+    /*max-width: 200px;*/
+    /*margin-bottom: 87px;*/
+    z-index: 3;
+}
+.back_layer{
+	position: absolute;
+    width: 275px;
+    height: 280px;
+    left: 0px;
+    top: 0px;
+    opacity: 0.93;
+    background-color:#3283EA;
+}
+.study_flex{
+	display: flex;
+	/*justify-content: center;*/
+	align-items:center ;
+}
+.study_flex p{
+	margin: 0px 0px 0px 5px;
+}
+
+.study_banner button{
+	width: 100%;
+	position: relative;
+	/*z-index: 2;*/
+	background: white;
+	color:#3283EA;
+	border-radius: 0px;
+	border: none;
+	font-size: 18px;
+}
+.study_banner button i{
+	font-size: 15px;
+}
+.study_banner button:hover{
+	color: white;
+	background:#3283EA;
+}
+.banner_txt2{
+	margin-top: 60px !important;
+}
+
+@media screen and (max-width: 350px){
+	.back_layer{
+		width: 100%;
+	}
+}
+
+/*study abroad sec ends*/
+
+/*col-4 ends*/
+
+/*col-8 starts*/
+
+/*vertical tab pane starts*/
+.verttab_cont .card-body h5{
+	padding: 13px 15px;
+	background: white;
+	box-shadow: 0px 10px 30px 0px rgb(0 0 0 / 10%);
+	margin-top: -29px;
+    margin-bottom: 29px;
+}
+.verttab_cont .card-body{
+	background: #F4F3F3;
+}
+.verttab_cont .card-body a .sp_i2{
+	font-size: 13px;
+	transition: all 500ms;
+}
+.verttab_cont .card-body a{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: all 500ms;
+	color: black;
+}
+.verttab_cont .card-body a span{
+	font-size: 16px;
+	
+}
+.sp_i{
+	opacity: 0;
+	margin-left: -15px;
+	font-size: 5px;
+	transition: all 500ms;
+}
+.verttab_cont .card-body a:hover .sp_i{
+	opacity: 1;
+	margin-left: 0;
+}
+.verttab_cont .card-body a:hover{
+	color:#3283EA;
+}
+
+.verttab_cont .card-body a:hover i{
+	transform: translateX(10px);
+}
+.verttab_cont .card-body p{
+	color: #B28F80;
+}
+.India_vertpane li{
+	/*padding: 20px 0px;*/
+	background: #F6F4F4;
+	border-right: 1px solid white;
+	position: relative;
+	width: 25%;
+	text-align: center;
+}
+@media screen and (max-width:770px){
+.India_vertpane li{
+	width: 100%;
+	border-bottom: white;
+}
+}
+.India_vertpane li a{
+	color: #9D9D9D;
+	font-size: 20px;
+	height: 100%;
+	padding: 20px 0px;
+	position: relative;
+}
+.India_vertpane li a:hover{
+	color: #9D9D9D;
+}
+
+/*.vert_panborder{
+	height: 8px;
+	width: 100%;
+	background:#3283EA ;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}*/
+.India_vertpane .nav-link.active{
+	background: white;
+	color:#3283EA ;
+}
+.India_vertpane .nav-link.active::before{
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 8px;
+	width: 100%;
+	background:#3283EA ;
+	animation:scale-in-hor-center .5s cubic-bezier(.25,.46,.45,.94) both;
+
+}
+@keyframes scale-in-hor-center{0%{transform:scaleX(0);opacity:1}100%{transform:scaleX(1);opacity:1}}
+
+
+/*vertical tab pan ends*/
+
+/*horizaontal tab starts*/
+.India_hortab .hor_btn{
+	padding: 20px 30px;
+	background: #F7F5F5;
+	border-bottom: 1px solid #DEDEDE;
+	cursor: pointer;
+	border-right: 3px solid black;
+}
+.hor_col1 i,.hor_col1 p{
+	color: #9D9D9D;
+}
+.India_hortab .list-group div i,.India_hortab .list-group div h6{
+	transition: all 0.4s;
+}
+.India_hortab .list-group div.active i,.India_hortab .list-group div.active h6{
+	color: #3283EA;
+}
+.India_hortab .list-group div.active{
+	border-right: 3px solid #3283EA;
+}
+.hor_col2 p{
+	color: #808090;
+	text-align: justify;
+}
+
+
+/*horizontal tab ends*/
+
+/*service div starts*/
+.ser_checkbox{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid #ECEBEB;
+	text-align: center;
+	padding: 10px 8px;
+	/*min-width: 130px;*/
+	transition: all 0.4s;
+	cursor: pointer;
+}
+.service_div p{
+	color:#9D9D9D ;
+}
+.ser_checkbox i{
+	padding: 10px;
+	border-radius: 50%;
+	color: #9D9D9D;
+	border: 3px solid #9D9D9D;
+	margin-top: 10px;
+	transition: all 0.4s;
+}
+.service_div{
+	text-align: center;
+}
+.ser_checkbox h6{
+	margin: 0px;
+}
+
+.ser_checkbox:hover{
+	/*border: none;*/
+	box-shadow: 0px 0px 20px 2px #ECEBEB;
+}
+.ser_checkbox:hover i{
+	color: white;
+	background:#3283EA ;
+	border: 3px solid #3283EA;
+}
+
+/*service div ends*/
+
+/*coll-8 ends*/
+
+/*footer starts*/
+
+.foot_sec1{
+	padding: 100px 0px;
+	background: #142B3C;
+	margin-top: 100px;
+}
+.foot_col1 img{
+	height: 60px;
+}
+
+.foot_modal{
+	position: relative;
+	cursor: pointer;
+	
+	height: 80px;
+	width: 80px;
+	/*border-radius: 50px !important;*/
+
+}
+.fm1{
+	background: url(Images/Home/e1.jpg);
+	background-size: cover;
+}
+.fm2{
+	background:url(Images/Home/e2.jpg) ;
+	background-size: cover;
+}
+.fm3{
+	background:url(Images/Home/e3.jpg);
+	background-size: cover;
+}
+.fm4{
+	background:url(Images/Home/e4.jpg);
+	background-size: cover;
+}
+.fm5{
+	background: url(Images/Home/e6.jpg);
+	background-size: cover;
+}
+
+.fm6{
+	background: url(Images/Home/e8.jpg);
+	background-size: cover;
+}
+
+.col4_hover{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 10;
+	background-color: #3283EA;
+	opacity: 0;
+	/*border-radius: 10px !important;*/
+	transition: opacity 0.4s;
+}
+
+
+.col4_hover i{
+	font-size: 13px;
+	color: white;
+	/*font-weight: 900;*/
+	/*opacity: 1;*/
+}
+
+.col4_hover:hover{
+	opacity: 0.5;
+}
+
+.foot_col1 p{
+	color: #7EB1C5;
+}
+.foot_col1 .foot_colflex+p a{
+	color: #BDC4C1;
+	transition: all 0.4s;
+}
+.foot_col1 .foot_colflex+p a:hover{
+	color: blue;
+}
+.foot_colflex+p+p a{
+	transition: all 0.4s;
+}
+.foot_colflex+p+p a:hover{
+	color: white;
+}
+.foot_colflex h5{
+	color: white;
+}
+.foot_col2 h5{
+	color: white;
+}
+.foot_col2 i{
+	color:#BDC4C1 ;
+}
+.foot_col2 a{
+	color:#7EB1C5 ;
+	transition: all 0.4s;
+}
+.foot_col2 a:hover{
+	color: #3283EA;
+}
+.foot_col2 .d-flex i{
+	transition: all 0.4s;
+	color: #465B6A;
+	font-size: 5px;
+}
+.foot_col2 .d-flex:hover i{
+	color: #3283EA;
+}
+.foot_col3 h5{
+	color: white;
+}
+.foot_col3 i{
+	color: #2F7AD8;
+}
+.foot_col3 h6 i+a{
+	transition: all 0.4s;
+}
+.foot_col3 h6 i+a:hover{
+	color: white;
+}
+.foot_col3 h6+h6 a{
+	color: white;
+	transition: all 0.4s;
+	font-size: 18px;
+}
+.foot_col3 h6+h6{
+	font-size: 17px;
+}
+.foot_col3 h6+h6 a:hover{
+	color:#2F7AD8 ;
+}
+.foot_col3 p{
+	color:#BDC4C1 ;
+	/*font-size: 17px;*/
+}
+.foot_col4 h5{
+	color: white;
+}
+.foot_sec2{
+	padding: 30px 0px;
+	background: #3283EA;
+	font-size: 20px;
+	color: white;
+}
+.foot_sec2 a{
+	color: white;
+	transition: 0.4s;
+}
+.foot_sec2 a:hover{
+	text-decoration: underline;
+}
+footer .pdf_icon{
+	background: #3283EA;
+} 
+
+.pdf_icon{
+	height: 50px;
+	width: 50px;
+	
+	color: white;
+	font-size: 25px;
+}
+footer .report_down1 h5 a{
+	color: white;
+	transition: all 500ms;
+}
+footer .report_down1 h5 a:hover{
+	color: #3283EA;
+	
+}
+footer .report_down1 h6 a{
+	color: #3283EA;
+} 
+@media screen and (max-width: 991px){
+	.foot2_col1{
+		justify-content: center ;
+	}
+}
+
+@media screen and (max-width: 420px){
+	.foot2_col2 a{
+		margin: 10px 6px !important;
+	}
+	.foot_sec2{
+		font-size: 15px !important;
+	}
+}
+
+/*upicon div starts*/
+.upicon_div i{
+	color: white;
+	text-align: center;
+	padding: 15px;
+	background: #3283EA;
+	transition: background 0.4s;
+	border: 2px solid white;
+}
+.upicon_div{
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+}
+.upicon_div:hover i{
+	background: #CE1435;
+}
+/*upicon div ends*/
+/*footer ends*/
